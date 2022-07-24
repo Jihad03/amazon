@@ -1,0 +1,20 @@
+.orders-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: flex-start;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.cart-container {
+  margin-left: 60px;
+  border: 2px dashed lightgrey;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.review-order-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

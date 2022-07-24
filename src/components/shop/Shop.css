@@ -1,0 +1,38 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 90%;
+  margin: 20px auto;
+  align-items: flex-start;
+}
+
+.product-container {
+  border-right: 1px solid lightgray;
+  padding: 0 10px 10px 10px;
+}
+
+.cart-container {
+  padding: 0 10px 10px 10px;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.search-field {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+}
+
+.search-field input {
+  width: 50%;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.search-field p {
+  color: white;
+  margin-left: 10px;
+}

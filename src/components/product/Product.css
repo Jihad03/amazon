@@ -1,0 +1,49 @@
+/* Resuables */
+
+.margin-b {
+  margin-bottom: 7px;
+}
+
+.btn {
+  display: block;
+  background-color: #d7a831;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Resuables */
+
+/* Products Section */
+
+.product {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid lightgray;
+  /* margin: 20px 0; */
+}
+
+.product-img-container {
+  width: 200px;
+  padding: 20px;
+}
+
+.product-img-container img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-details-container {
+  padding: 20px;
+}
+
+.product-details-container h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.icon-style {
+  margin: 10px 0;
+  color: gold;
+}
