@@ -20,10 +20,10 @@ const Orders = () => {
   };
 
   //Handle Place Order
-  const handlePlaceOrder = () => {
-    setCart([]);
-    deleteShoppingCart();
-    navigate("/placeorder");
+  const handleShipping = () => {
+    // setCart([]);
+    // deleteShoppingCart();
+    navigate("/shipping");
   };
   return (
     <div className="orders-container">
@@ -39,8 +39,8 @@ const Orders = () => {
       <div className="cart-container">
         <Cart cart={cart}>
           <div className="review-order-btn">
-            <button onClick={handlePlaceOrder} className="btn">
-              Place order
+            <button onClick={handleShipping} className="btn">
+              Procceed to Shipping
             </button>
           </div>
         </Cart>

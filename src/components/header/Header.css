@@ -24,3 +24,16 @@ nav a {
 nav a:hover {
   background-color: gray;
 }
+
+.header-btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #d7a831;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.header-btn:hover {
+  background-color: #d7a831;
+}

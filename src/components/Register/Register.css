@@ -1,0 +1,21 @@
+.register-form-container {
+  width: 25%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.register-form-container form {
+  margin: auto;
+}
+
+.register-form-container form input {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+}
+/* 
+.google-btn {
+  width: 100%;
+  margin: 15px auto;
+  padding: 15px;
+} */
